@@ -1,0 +1,41 @@
+# 민감한 정보
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+certs/
+
+# Claude Code 개인 설정 (팀 공용은 .claude/settings.json)
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Node / 프론트엔드 빌드
+node_modules/
+dist/
+*.tsbuildinfo
+npm-debug.log*
+
+# 로그
+*.log
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
